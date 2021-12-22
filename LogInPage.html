@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+    <link rel="stylesheet" href="sayatik2/css/LogPageStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="sayatik2/Scripts/AdminPageScript.js"></script>
+        <link rel="icon" href="sayatik/img/logo/logo.ico">
+</head>
+<body onload="openForForInLogFormUser()" style="background-color: orange;">
+<div class="intro">
+    <div class="mainContent">
+        <div class="containerLogForm">
+            <div id="divH3LogIn"><h3>Логин</h3></div><hr>
+            <div id="LogInForm">
+                <form onsubmit="return checkLogAndPass()" action="index.html">
+                    <label>Почта:</label><input type="email" id="emailLogInPage" placeholder="@gmail.com" required><br>
+                    <label>Пороль:</label><input type="password" id="passLogInPage" placeholder="пороль" required><br>
+                    <button>Логин</button><br>
+                    <span><a href="index.html">Назад в главный экран</a> <a href="RegisterPage.html">Зарегистрировать</a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
