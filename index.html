@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Главная страница</title>
 	<link rel="stylesheet" href="sayatik/css/style.css"> 
-	<link rel="icon" href="sayatik/img/logo/logo.ico"> 
+	<link rel="icon" href="outline_home_black_24dp.png"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="sayatik/js/jquery-3.6.0.min.js"></script>	
 </head>
@@ -15,7 +15,7 @@
 			<div class="logo">
 				<div class="logo_text">
 					<h1><a href="index.html">Smo3</a></h1>
-					<h2>Смотри новые фильмы в нашем сайте!</h2>
+					<h2 class="logo_text_text">Смотри новые фильмы в нашем сайте!</h2>
 				</div>
 			</div>
 
@@ -30,22 +30,18 @@
 				</ul>
 
 			</div>
+				
+
 	
 		</div>
+		<div class="animat">
 
 		<div class="site_content">
 			
 
 			<div class="sidebar_container">
 				
-				<div class="sidebar">
-					<h2>Поиск</h2>
-					<form method="post" action="#" id="search_form">
-						<input type="search" name="search_field" placeholder="ваш запрос">
-						<input type="submit" class="btn" value="найти">
-					</form>
-				</div>
-
+				
 				<div class="sidebar">
 						<div id="slideshow">
    						<img class="active" src="assets/img/1111.png" alt="">
@@ -57,37 +53,32 @@
    						<img src="sayatik/img/xfiles.png"alt="photo">
    						<img src="sayatik/img/max.png" alt="photo">
 </div>
-				</div>
+				</div></div>
 
-				<div class="sidebar">
-					<h2>Вход</h2>
-					<form method="post" action="#" id="login">
-						
-
-						<div class="lables_passreg_text">
-							<span><a href="#">Забыли пароль?</a></span> | <span><a href="LoginPage.html">Регистрация</a></span>
-						</div>
-
-					</form>
-				</div>
-
+				
 				<div class="sidebar">
 					<h2>Новости</h2>
-					<p>Мы запустили расширенный поиск</p>
-					<a href="#">читать</a>
+					<p>Стартовые сборы «Человека-паука: Нет пути домой» достигли<br> $600 млн — это новый рекорд в истории Sony</p>
+					<a href="https://www.kinoafisha.info/news/startovye-sbory-cheloveka-pauka-net-puti-domoy-dostigli-600-mln--eto-novyy-rekord-v-istorii-sony/">читать</a>
 				</div>
 
 				<div class="sidebar">
 					<h2>Рейтинг фильмов</h2>
 					<ul>
-						<li><a href="show.html">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
-						<li><a href="">Матрица</a><span class="rating_sidebar">8.0</span></li>
-						<li><a href="">Безумный макс</a><span class="rating_sidebar">7.5</span></li>
-						<li><a href="#">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
+						<li><a href="show.html">Человек-паук: Нет пути домой</a><span class="rating_sidebar">8.4</span></li>
+						<li><a href="#">Веном 2</a><span class="rating_sidebar">8.0</span></li>
+						<li><a href="#">Дюна</a><span class="rating_sidebar">7.8</span></li>
+						<li><a href="#">Отряд самоубийц</a><span class="rating_sidebar">7.1</span></li>
 					</ul>
 				</div>
 				<div class="sidebar">
+					<form method="post" action="#" id="login">
+						
+						<div class="lables_passreg_text">
+							<span><a href="RegisterPage.html" target="_blank">Войти</a></span> или <span><a href="LoginPage.html" target="_blank">Зарегистрироваться</a></span>
+						</div>
 
+					</form>
 				</div>
 			</div>
 	
@@ -98,10 +89,10 @@
 
 				<div class="films_block">
 					
-					<a href="show2.html"><img src="sayatik/img/matrix.png"></a>
-					<a href="show1.html"><img src="sayatik/img/max.png"></a>
-					<a href="show.html"><img src="sayatik/img/inter.png"></a>
-					<a href="show3.html"><img src="sayatik/img/cloud.png"></a>
+					<img src="sayatik/img/Stillwater-1.jpg"></a>
+					<img src="sayatik/img/Free-Guy-1.jpg"></a>
+					<img src="sayatik/img/El-Sombrerero-Loco-1.jpg"></a>
+					<img src="sayatik/img/loga.jpg"></a>
 
 				</div>
 
@@ -109,10 +100,10 @@
 
 				<div class="films_block">
 					
-					<a href="show4.html"><img src="sayatik/img/dead.png"></a>
-					<a href="show5.html"><img src="sayatik/img/silicon.png"></a>
-					<a href="#"><img src="sayatik/img/breakingbad.png"></a>
-					<a href="#"><img src="sayatik/img/xfiles.png"></a>
+					<img src="sayatik/img/Дивергент-16.jpg"></a>
+					<img src="sayatik/img/xd.jpg"></a>
+					<img src="sayatik/img/ooo.jpg"></a>
+					<img src="sayatik/img/ava.jpg"></a>
 
 				</div>
 
@@ -120,35 +111,33 @@
 				<div class="posts">
 					
 					<hr>
-					<h2> <a href="#">Как снимали Интерстеллар</a> </h2>
+					<h2>Как снимали "Человек-паук: Нет пути домой" </h2>
 					<div class="posts_content">
 						<p>
-							45 лет исполнилось Кристоферу Нолану — одному из самых успешных режиссеров нашего времени, чьи работы одинаково любимы как взыскательными критиками, так и простыми зрителями. Фильмом изначально занималась студия Paramount. Когда Кристофер Нолан занял место режиссера, студия Warner Bros., которая выпускала его последние фильмы, добилась участия в проекте.
+							По сюжету, в кадре должен появиться дом доктора Стрэнджа на Бликер-стрит. Оказалось, что воссоздать жилище колдуна не так просто. «Нам нужно было заново обставить прихожую, которая строилась неоднократно в самых различных точках планеты, – рассказывает художник-постановщик Даррен Гилфорд. – Команда Чарли  Вуда, который разрабатывал дизайн фильмов о докторе Стрэндже и фильмов франшизы МСТИТЕЛИ, готовилась к съемкам проекта ДОКТОР СТРЭНДЖ И МУЛЬТИВСЕЛЕННАЯ БЕЗУМИЯ как раз в тот момент, когда мы приступали к работе над картиной ЧЕЛОВЕК-ПАУК: НЕТ ПУТИ ДОМОЙ, поэтому нам пришлось выстраивать декорацию с нуля
 						</p>
 					</div>
 
-					<p><a href="#">Читать</a></p>
-
 					<hr>
-		            <h2><a href="#">Актер Том Хенкс поделился впечатлением о фестивале</a></h2>
+		            <h2>Том Холланд прокомментировал Эндрю Гарфилда в «Человеке-пауке: Нет пути домой»</h2>
 		            <div class="posts_content">
-		              <p>16 февраля в Лондоне состоялась 67-я церемония вручения наград Британской киноакадемии. Леонардо ДиКаприо, Брэд Питт, Анджелина Джоли, Кейт Бланшетт, Хелен Миррен, Эми Адамс, Кристиан Бэйл, Альфонсо Куарон и другие гости и победители премии — в нашем репортаже.</p>
+		              <p>Эндрю Гарфилд – легенда. Он такой прекрасный парень. Я думаю, что этот фильм был его способом закончить с Человеком-пауком. Работать с ним было такой привилегией. Я знаю, что это много для него значило.</p>
 		            </div>
-		            <p><a href="#">Читать</a></p>
+		          
 
 				</div>
 
 
-			</div>
+			</div>	
 
 		</div>
 
 	<div class="footer">
 		<p>
-			<a href="index.html">Главная</a> |
-			<a href="film.html">Фильмы</a> |  
-			<a href="rating.html">Рейтинг фильмов</a> |
-			<a href="contact.html">Контакты</a>
+			<a href="#">Главная</a> |
+			<a href="#">Фильмы</a> |  
+			<a href="#">Рейтинг фильмов</a> |
+			<a href="#">Контакты</a>
 			<div style="padding-left: 40px; padding-right: 40px;">
 			<a href="https://vk.com"><img src="sayatik/img/app/fb.png" width="30" height="30" style="padding-left: 10px; padding-right=: 10px;"></a>
 			<a href="https://www.instagram.com" target="_blank"><img src="sayatik/img/app/insta.png" width="30" height="30" style="padding-left: 10px; padding-right=: 10px;"></a>
